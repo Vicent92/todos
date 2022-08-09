@@ -31,14 +31,14 @@ export const NavBar = () => {
                 {...register('title')}
                 type="text"
                 placeholder="Title"
-                class="w-9/12 h-8 mt-3 rounded-sm border-0 outline-0 px-4"
+                class="w-9/12 h-11 mt-3 rounded-sm border outline-0 px-4"
                 />
 
                 <input
                 {...register('description')}
                 type="text"
                 placeholder="Description"
-                class="w-9/12 h-8 mt-3 rounded-sm border-0 outline-0 px-4"
+                class="w-9/12 h-11 mt-3 rounded-sm border outline-0 px-4"
                 />
 
                 <button
